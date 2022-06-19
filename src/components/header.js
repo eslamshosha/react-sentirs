@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+//
 const Header = () => {
   return (
     <nav className="navbar">
@@ -15,10 +15,14 @@ const Header = () => {
         </div>
         <ul className="big-menu">
           <li>
-            <Link className="cat-anchor" to="/">Home</Link>
+            <Link className="cat-anchor" to="/">
+              Home
+            </Link>
           </li>
           <li>
-            <Link className="cat-anchor" to="/about">About</Link>
+            <Link className="cat-anchor" to="/about">
+              About
+            </Link>
           </li>
         </ul>
       </div>
